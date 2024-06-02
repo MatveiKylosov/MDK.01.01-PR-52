@@ -152,7 +152,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Classes\" />
+    <Folder Include="Classes\Common\" />
     <Folder Include="Images\" />
     <Folder Include="Items\" />
     <Folder Include="Models\" />
