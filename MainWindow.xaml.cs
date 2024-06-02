@@ -24,7 +24,9 @@ namespace ReportGeneration_Kylosov
         public MainWindow()
         {
             InitializeComponent();
+
             Instance = this;
+            OpenPages(new Pages.Main());
         }
 
         public void OpenPages(Page page) => frame.Navigate(page);
