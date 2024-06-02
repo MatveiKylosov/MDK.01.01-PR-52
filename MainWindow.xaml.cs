@@ -20,9 +20,13 @@ namespace ReportGeneration_Kylosov
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow Instance;
         public MainWindow()
         {
             InitializeComponent();
+            Instance = this;
         }
+
+        public void OpenPages(Page page) => frame.Navigate(page);
     }
 }
