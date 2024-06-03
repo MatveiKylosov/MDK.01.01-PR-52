@@ -42,6 +42,7 @@ namespace ReportGeneration_Kylosov.Pages
                 Parent.Children.Add(new Items.Student(student, this));
         }
 
+        //Вывод студентов, из списка группы
         private void SelectGroup(object sender, SelectionChangedEventArgs e)
         {
             if (CBGroups.SelectedIndex != CBGroups.Items.Count - 1)
